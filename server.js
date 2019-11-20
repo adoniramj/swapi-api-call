@@ -16,7 +16,6 @@ function fetchURL(url) {
 const promiseArray = [url1, url2, url3, url4].map(fetchURL)
 //promiseArray is an array of promises
 
-console.log(promiseArray)
 app.get('/starships', (request, response)=> {
   Promise.all(promiseArray) //PromiseAll waits for all the promises to return and then returns an array
   .then((data) => { //data is an array of responses
