@@ -1,7 +1,7 @@
 # SWAPI API call
 
 SWAPI API call using Promise.all.
-Creates a server using node.js to request data to all the starship pages.
+Creates a server using node.js to request data for all swapi starship data
 
 ### System dependencies
 * node.js
